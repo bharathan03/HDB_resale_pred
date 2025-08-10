@@ -4,19 +4,19 @@ This machine learning project aims to predict resale prices of HDB using a Super
 Dataset link: https://data.gov.sg/collections/189/view
 
 1. This project consists of 5 stages 
-  -  Background Research and Data Exploration
+    1. Background Research and Data Exploration
     - Merging and cleaning multiple csv's from the different years
     - Conducted Exploratory Data Analysis (EDA) on features such as floor_area, remaining_lease etc 
-  -  Feature Engineering
+    2. Feature Engineering
     - Transforming date columns
     - Standardizing duplicate values in columns 
-  -  Model Pipeline
+    3. Model Pipeline
     - Build preprocessing pipelines using ColumnTransformer and Pipeline
     - Usage of multiple regression models: Linear Regression, Ridge, Lasso, Bayesian Ridge, Decision Tree
-  -  Model Improvement
+    4. Model Improvement
     - Use GridSearchCV and cross-validation to tune hyperparameters
     - Addition of new models (RandomForest, XBGoost)
-  -  Other Tests for Possible Improvements
+    5. Other Tests for Possible Improvements
     - Log transforming testing
   
 2. Models used:
